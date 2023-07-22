@@ -47,7 +47,7 @@ for(let i = 0;i< 10;i++){
             <div class="featured">' + featured + '</div>\
             <div class="bestseller">' + best + '</div>\
         </div>\
-        <img class="productimg" src="images/ustraa/u' + (i+1) + '.avif">\
+        <img class="productimg" src="../images/ustraa/u' + (i+1) + '.avif">\
         <div class="productName center">' + pName[i] + '</div>\
         <div class="price">\
             <div class="mrp">MRP : \

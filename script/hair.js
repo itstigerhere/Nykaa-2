@@ -47,7 +47,7 @@ for(let i = 0;i< 10;i++){
             <div class="featured">' + featured + '</div>\
             <div class="bestseller">' + best + '</div>\
         </div>\
-        <img class="productimg" src="images/hair/h' + (i+1) + '.avif">\
+        <img class="productimg" src="../images/hair/h' + (i+1) + '.avif">\
         <div class="productName center">' + pName[i] + '</div>\
         <div class="price">\
             <div class="mrp">MRP : \
@@ -64,6 +64,6 @@ for(let i = 0;i< 10;i++){
 for(let i = 0 ;i< 6;i++){
     document.getElementById('hairSlideshow').innerHTML += 
     '<div class="carousel-item">\
-        <img src="images/slideshow/h' + (i+2) + '.avif" class="d-block w-100 slider" alt="..." />\
+        <img src="../images/slideshow/h' + (i+2) + '.avif" class="d-block w-100 slider" alt="..." />\
     </div>';
 }

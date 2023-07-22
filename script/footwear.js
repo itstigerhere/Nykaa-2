@@ -42,7 +42,7 @@ for(let i = 0;i< 10;i++){
     }
 
     if (i < 3){
-        flink = 'footwear/' + (i+1) + '.html';
+        flink = '../footwear/' + (i+1) + '.html';
     } else {
         flink = '#';
     }
@@ -53,7 +53,7 @@ for(let i = 0;i< 10;i++){
             <div class="featured">' + featured + '</div>\
             <div class="bestseller">' + best + '</div>\
         </div>\
-        <img class="productimg" src="images/footwear/f' + (i+1) + '.avif">\
+        <img class="productimg" src="../images/footwear/f' + (i+1) + '.avif">\
         <div class="productName center">' + footName[i] + '</div>\
         <div class="price">\
             <div class="mrp">MRP : \

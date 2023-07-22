@@ -59,10 +59,10 @@ let clink;
 
 // Product slider
 for(let i = 0;i < arr.length;i++){
-    if (i > 9)
+    if (i > 9 || link[i] == 'main')
         clink = '#'
     else 
-        clink = link[i] + '.html';
+        clink = 'pages/' + link[i] + '.html';
 
     document.getElementById("productContainer").innerHTML += 
     '<a class="aremove" href="' + clink + '"><div class="card">\
@@ -101,7 +101,7 @@ for (let i = 0;i < disarr.length;i++){
     mr = (i%5 == 4) ? "0" : "1.42em";
 
     if (i == 0)
-        curlink = 'ustraa.html';
+        curlink = 'pages/ustraa.html';
     else 
         curlink = '#';
 
