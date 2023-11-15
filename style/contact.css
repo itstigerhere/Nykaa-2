@@ -15,7 +15,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 200vh;
     /* width: 100vw; */
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
